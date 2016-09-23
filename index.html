@@ -19,7 +19,7 @@
     </style>
     </head>
     <body>
-        <h6 id = "top"> </h6>
+        <h6 id = "top"> </h6><hr><hr>
         <br><br><br>
         <h1>Teratopia's Java Blog</h1>
         <h3>Here you'll find links to five blog posts on coding in Java:</h3>
@@ -44,7 +44,8 @@
         <h6><a href="#top">Jump to top of page</a></h6>
         <hr><br>
         <h2 id="void">What is ‘void’ in a method declaration?</h2>
-        <p>The answer is...</p><br>
+        <p>	Methods are used to make code more compact, allowing us to call a block of code by its method name instead of typing the same thing again and again. Some methods are only used to execute code without producing a result used by the main method. For instance, a method that prints out “hello world!” does not return any usable information to the main code block, it just prints a statement to the console. In this case it is a “void” method, since it does not <em>return</em> any data back to the main code block. This method might begin like: public static <strong>void</strong> helloWorld( ){…</p>
+        <p>	By contrast, a method that does return data to the main method is not void, and must specify the type of data that is to be returned. Perhaps instead of just printing “hello world” I write a program that selects a character at random from the String of characters in “hello world”, then feeds that character back to the main code block. In this case the method would be written: public static <strong>char</strong> helloWorld( ){… This method would also need to include a return statement specifying which character would be fed back into the main program. For example, ‘return c;’ where ‘c’ is a variable that holds the character chosen at random from “hello world”.</p>
         <h6><a href="#top">Jump to top of page</a></h6>
         <hr><br>
         <h2 id="pvsa">When it comes to methods, what is the difference between a “parameter” and an “argument”?</h2>
