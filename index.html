@@ -49,7 +49,8 @@
         <h6><a href="#top">Jump to top of page</a></h6>
         <hr><br>
         <h2 id="pvsa">When it comes to methods, what is the difference between a “parameter” and an “argument”?</h2>
-        <p>The answer is...</p><br>
+        <p>	There’s a subtle difference between a parameter and an argument: in a nutshell, a parameter is used in the definition of a method to determine a variable the method can accept, while an argument is used when calling the method to lend a value to that determined variable. Let’s say there is a method defined by: public static void guessANumber (int guess). The int variable called guess is the parameter: it determines the type of information that method guessANumber is allowed to receive from the main program, in this case an integer.</p>
+        <p>	This begs the question of how guessANumber gets that input variable, and the answer is an argument! When the guessANumber method is called in the main code block it cannot be left blank. Writing guessANumber( ); does not work—the method's parameter requires an value for ‘guess’ in order to function. Luckily we can supply that value when we call the method by adding an ‘argument’ to the parentheses. Calling guessANumber(4); makes '4' the value, or argument, that fills the variable 'guess', the parameter.</p>
         <h6><a href="#top">Jump to top of page</a></h6>
         <hr><br>
         <h2 id="equals">When would you use ‘=’ vs ‘==’ vs ‘.equals’?</h2>
